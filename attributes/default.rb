@@ -1,5 +1,4 @@
 # general server
-default['uaitilinuxserver']['project_name']       = 'project'
 default['uaitilinuxserver']['server_user']        = 'project'
 default['uaitilinuxserver']['server_user_pass']   = '$1$otpT7JMb$AmhOdAR1fNRrgChYYiQGW/' # openssl passwd -1 "project"
 default['uaitilinuxserver']['home_dir']           = '/home/project'
