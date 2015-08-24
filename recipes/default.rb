@@ -46,13 +46,13 @@ template node['uaitilinuxserver']['home_dir'] + "/.ssh/id_rsa.pub" do
 	source "id_rsa.pub.erb"
 	owner node['uaitilinuxserver']['server_user']
 	group node['uaitilinuxserver']['server_user']
-	mode '0644'
+	mode '0600'
 end
 template node['uaitilinuxserver']['home_dir'] + "/.ssh/id_rsa" do
 	source "id_rsa.erb"
 	owner node['uaitilinuxserver']['server_user']
 	group node['uaitilinuxserver']['server_user']
-	mode '0644'
+	mode '0600'
 end
 
 # 
